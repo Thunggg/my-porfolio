@@ -90,20 +90,15 @@ export const SKILL_DATA = [
 
 export const SOCIALS = [
   {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    name: "Github",
+    icon: RxGithubLogo,
+    link: "https://github.com/thunggg",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
-  },
+    link: "https://facebook.com/dontknowmeplz",
+  }
 ] as const;
 
 export const FRONTEND_SKILL = [
@@ -207,8 +202,8 @@ export const BACKEND_SKILL = [
     height: 70,
   },
   {
-    skill_name: "Prisma",
-    image: "prisma.png",
+    skill_name: "Solidity",
+    image: "icons8-solidity-96.png",
     width: 70,
     height: 70,
   },
@@ -251,33 +246,33 @@ export const FULLSTACK_SKILL = [
 export const OTHER_SKILL = [
   {
     skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
+    image: "icons8-spring-boot-96.png",
+    width: 80,
+    height: 80,
   },
 ] as const;
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Wallet Explorer API",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      'Explore the world of blockchain wallets with the Wallet Explorer API – a powerful and flexible tool built to retrieve wallet information on many popular EVM chains.',
+    image: "/projects/project-4.png",
+    link: "https://github.com/Thunggg/hackthon-vietchain",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Web donation",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      'Empower creators, streamers, and developers to receive donations directly on the blockchain with Donate Wallet – a lightweight and secure smart wallet designed for transparent and trustless support.',
+    image: "/projects/project-5.png",
+    link: "https://github.com/Thunggg/ThungggDonate",
   },
   {
-    title: "Space Themed Website",
+    title: "Book selling website",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      'A user-friendly online platform for discovering and buying books across various genres, with smart filters, and personalized recommendations. Includes efficient inventory and order management for admins.',
+    image: "/projects/project-6.jpg",
+    link: "https://github.com/Thunggg/ReadHasha_FrontEnd",
   },
 ] as const;
 
@@ -285,63 +280,23 @@ export const FOOTER_DATA = [
   {
     title: "Community",
     data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
+      // {
+      //   name: "GitHub",
+      //   icon: RxGithubLogo,
+      //   link: "https://github.com/thunggg",
+      // }
     ],
   },
   {
     title: "Social Media",
     data: [
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
+      // {
+      //   name: "X",
+      //   icon: RxTwitterLogo,
+      //   link: "https://x.com/home",
+      // }
     ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
-      },
-    ],
-  },
+  }
 ] as const;
 
 export const NAV_LINKS = [

@@ -25,7 +25,7 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Thunggg</div>
         </Link>
 
         {/* Web Navbar */}
@@ -42,14 +42,14 @@ export const Navbar = () => {
             ))}
 
             {/* Source Code */}
-            <Link
+            {/* <Link
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
               Source Code
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -91,7 +91,7 @@ export const Navbar = () => {
                 {link.title}
               </Link>
             ))}
-            <Link
+            {/* <Link
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
@@ -99,7 +99,7 @@ export const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Source Code
-            </Link>
+            </Link> */}
           </div>
 
           {/* Social Icons */}
